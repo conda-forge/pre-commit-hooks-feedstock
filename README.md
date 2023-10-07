@@ -1,11 +1,11 @@
-About pre-commit-hooks
-======================
+About pre-commit-hooks-feedstock
+================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pre-commit-hooks-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/pre-commit/pre-commit-hooks
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pre-commit-hooks-feedstock/blob/main/LICENSE.txt)
 
 Summary: Some out-of-the-box hooks for pre-commit.
 
