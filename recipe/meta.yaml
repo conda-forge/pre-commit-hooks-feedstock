@@ -1,5 +1,5 @@
 {% set name = "pre-commit-hooks" %}
-{% set version = "4.6.0" %}
+{% set version = "5.0.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pre_commit_hooks-{{ version }}.tar.gz
-  sha256: eb1f43ee67869cd41b4c59017fad4a0f9d4d61201d163f2135535aaf65035a2b
+  sha256: 10626959a9eaf602fbfc22bc61b6e75801436f82326bfcee82bb1f2fc4bc646e
 
 build:
   number: 0
