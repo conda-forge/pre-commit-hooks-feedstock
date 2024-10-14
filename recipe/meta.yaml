@@ -11,7 +11,7 @@ source:
   sha256: 10626959a9eaf602fbfc22bc61b6e75801436f82326bfcee82bb1f2fc4bc646e
 
 build:
-  number: 0
+  number: 1
   noarch: python
   entry_points:
     - check-added-large-files = pre_commit_hooks.check_added_large_files:main
@@ -52,6 +52,7 @@ build:
 requirements:
   host:
     - pip
+    - setuptools
     - python >=3.6
   run:
     - python >=3.6
