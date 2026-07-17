@@ -17,7 +17,6 @@ build:
     - check-added-large-files = pre_commit_hooks.check_added_large_files:main
     - check-ast = pre_commit_hooks.check_ast:main
     - check-builtin-literals = pre_commit_hooks.check_builtin_literals:main
-    - check-byte-order-marker = pre_commit_hooks.check_byte_order_marker:main
     - check-case-conflict = pre_commit_hooks.check_case_conflict:main
     - check-docstring-first = pre_commit_hooks.check_docstring_first:main
     - check-executables-have-shebangs = pre_commit_hooks.check_executables_have_shebangs:main
@@ -67,7 +66,6 @@ test:
     - check-added-large-files --help
     - check-ast --help
     - check-builtin-literals --help
-    - check-byte-order-marker --help
     - check-case-conflict --help
     - check-docstring-first --help
     - check-executables-have-shebangs --help
@@ -87,7 +85,6 @@ test:
     - end-of-file-fixer --help
     - file-contents-sorter --help
     - fix-byte-order-marker --help
-    - fix-encoding-pragma --help
     - forbid-new-submodules --help
     - mixed-line-ending --help
     - name-tests-test --help
