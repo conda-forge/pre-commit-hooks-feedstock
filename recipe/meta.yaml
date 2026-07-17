@@ -1,5 +1,5 @@
 {% set name = "pre-commit-hooks" %}
-{% set version = "5.0.0" %}
+{% set version = "6.0.0" %}
 
 
 package:
@@ -8,16 +8,15 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pre_commit_hooks-{{ version }}.tar.gz
-  sha256: 10626959a9eaf602fbfc22bc61b6e75801436f82326bfcee82bb1f2fc4bc646e
+  sha256: 76d8370c006f5026cdd638a397a678d26dda735a3c88137e05885a020f824034
 
 build:
-  number: 2
+  number: 0
   noarch: python
   entry_points:
     - check-added-large-files = pre_commit_hooks.check_added_large_files:main
     - check-ast = pre_commit_hooks.check_ast:main
     - check-builtin-literals = pre_commit_hooks.check_builtin_literals:main
-    - check-byte-order-marker = pre_commit_hooks.check_byte_order_marker:main
     - check-case-conflict = pre_commit_hooks.check_case_conflict:main
     - check-docstring-first = pre_commit_hooks.check_docstring_first:main
     - check-executables-have-shebangs = pre_commit_hooks.check_executables_have_shebangs:main
@@ -67,7 +66,6 @@ test:
     - check-added-large-files --help
     - check-ast --help
     - check-builtin-literals --help
-    - check-byte-order-marker --help
     - check-case-conflict --help
     - check-docstring-first --help
     - check-executables-have-shebangs --help
@@ -87,7 +85,6 @@ test:
     - end-of-file-fixer --help
     - file-contents-sorter --help
     - fix-byte-order-marker --help
-    - fix-encoding-pragma --help
     - forbid-new-submodules --help
     - mixed-line-ending --help
     - name-tests-test --help
